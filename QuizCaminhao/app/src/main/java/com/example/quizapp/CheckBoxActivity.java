@@ -21,7 +21,6 @@ public class CheckBoxActivity extends AppCompatActivity {
         setContentView(R.layout.activity_check_box);
 
         Bundle bundle = getIntent().getExtras();
-
         quiz = (Quiz)bundle.getSerializable("QUIZ");
 
         Button buttonFinalizar = findViewById(R.id.button_check_id);
@@ -32,8 +31,6 @@ public class CheckBoxActivity extends AppCompatActivity {
 
             }
         });
-
-
 
     }
 
